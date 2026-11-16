@@ -2,102 +2,104 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	"10000000voltthunderbolt": {
 		name: "Iperfulmine",
 		// Official flavor text: "Questa mossa non può essere usata. È consigliabile farla dimenticare al Pokémon. Tuttavia, una volta dimenticata, non potrà più essere ricordata."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Ha una possibilità molto alta di infliggere un brutto colpo.", // NEEDS CHECK
+		shortDesc: "Possibilità di brutto colpo +2.", // NEEDS CHECK
 	},
 	absorb: {
 		name: "Assorbimento",
 		// Official flavor text: "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "L'utilizzatore recupera 1/2 degli HP sottratti al bersaglio, arrotondati per eccesso. Se l'utilizzatore tiene una Big Root, recupera 1,3x gli HP, arrotondati per difetto.", // NEEDS CHECK
+		shortDesc: "L'utilizzatore recupera il 50% dei danni inflitti.", // NEEDS CHECK
 		gen4: {
-			desc: null, // NEEDS TRANSLATION
+			desc: "L'utilizzatore recupera 1/2 degli HP sottratti al bersaglio, arrotondati per difetto. Se l'utilizzatore tiene una Big Root, recupera 1,3x gli HP, arrotondati per difetto.", // NEEDS CHECK
+		shortDesc: "Recupera il 50% dei danni inflitti.", // NEEDS CHECK
 		},
 		gen3: {
-			desc: null, // NEEDS TRANSLATION
+			desc: "L'utilizzatore recupera 1/2 degli HP sottratti al bersaglio, arrotondati per difetto.", // NEEDS CHECK
 		},
 		gen2: {
-			desc: null, // NEEDS TRANSLATION
+			desc: "L'utilizzatore recupera 1/2 degli HP sottratti al bersaglio, arrotondati per difetto. Se il bersaglio ha Sostituto attivo, la mossa fallisce.", // NEEDS CHECK
 		},
 		gen1: {
-			desc: null, // NEEDS TRANSLATION
+			desc: "L'utilizzatore recupera 1/2 degli HP sottratti al bersaglio, arrotondati per difetto. Se questa mossa rompe il Sostituto del bersaglio, l'utilizzatore non recupera HP.", // NEEDS CHECK
 		},
 	},
 	accelerock: {
 		name: "Rocciarapida",
 		// Official flavor text: "Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Nessun effetto aggiuntivo.", // NEEDS CHECK
+		shortDesc: "Alta priorità.", // NEEDS CHECK
 	},
 	acid: {
 		name: "Acido",
 		// Official flavor text: "Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Possibilità del 10% di diminuire la Difesa Speciale del bersaglio di 1 stadio.", // NEEDS CHECK
+		shortDesc: "10% di diminuire la SpD degli avversari.", // NEEDS CHECK
 		gen3: {
-			desc: null, // NEEDS TRANSLATION
-			shortDesc: null, // NEEDS TRANSLATION
+			desc: "Possibilità del 10% di diminuire la Difesa del bersaglio di 1 stadio.", // NEEDS CHECK
+			shortDesc: "10% di diminuire la Def degli avversari.", // NEEDS CHECK
 		},
 		gen1: {
-			desc: null, // NEEDS TRANSLATION
-			shortDesc: null, // NEEDS TRANSLATION
+			desc: "Possibilità del 33% di diminuire la Difesa del bersaglio di 1 stadio.", // NEEDS CHECK
+			shortDesc: "33% di diminuire la Def dell'avversario.", // NEEDS CHECK
 		},
 		gen2: {
-			shortDesc: null, // NEEDS TRANSLATION
+			shortDesc: "10% di diminuire la Def dell'avversario.", // NEEDS CHECK
 		},
 	},
 	acidarmor: {
 		name: "Scudo Acido",
 		// Official flavor text: "Chi la usa altera la sua struttura cellulare passando allo stato liquido. La Difesa sale di molto."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Aumenta la Difesa dell'utilizzatore di 2 stadi.", // NEEDS CHECK
+		shortDesc: "Aumenta la Def dell'utilizzatore di 2 stadi.", // NEEDS CHECK
 	},
 	aciddownpour: {
 		name: "Acidiluvio Corrosivo",
-		shortDesc: null, // NEEDS TRANSLATION
+		shortDesc: "Potenza influenzata dalla mossa di partenza.", // NEEDS CHECK
 	},
 	acidspray: {
 		name: "Acidobomba",
 		// Official flavor text: "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Possibilità del 100% di diminuire la Difesa Speciale dell'avversario di 2 stadi.", // NEEDS CHECK
+		shortDesc: "Diminuisce la SpD dell'avversario di 2 stadi.", // NEEDS CHECK
 	},
 	acrobatics: {
 		name: "Acrobazia",
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "La potenza raddoppia se l'utilizzatore non usa uno strumento", // NEEDS CHECK
+		shortDesc: "Raddoppia la potenza senza uno strumento.", // NEEDS CHECK
 	},
 	acupressure: {
 		name: "Acupressione",
 		// Official flavor text: "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Aumenta di 2 stadi una statistica casuale escludendo le statistiche già a 6 stadi. L'utilizzatore può scegliere se usare questa mossa su sé stesso o su un alleato adiacente. La mossa fallisce se nessuna statistica può essere aumentata o se usata su un alleato con Sostituto attivo.", // NEEDS CHECK
+		shortDesc: "Aumenta di 2 una statistica casuale.", // NEEDS CHECK
 		gen4: {
-			desc: null, // NEEDS TRANSLATION
+			desc: "Aumenta di 2 stadi una statistica casuale escludendo le statistiche già a 6 stadi. L'utilizzatore può scegliere se usare questa mossa su sé stesso o su un alleato adiacente. La mossa fallisce se nessuna statistica può essere aumentata o se usata su bersaglio con Sostituto attivo.", // NEEDS CHECK
 		},
 	},
 	aerialace: {
 		name: "Aeroassalto",
-		shortDesc: null, // NEEDS TRANSLATION
+		shortDesc: "Colpisce indipendentemente dalla precisione.", // NEEDS CHECK
 	},
 	aeroblast: {
 		name: "Aerocolpo",
 		// Official flavor text: "Colpisce il bersaglio con un vortice d’aria per danneggiarlo. Probabile brutto colpo."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Maggiori probabilità di infliggere un brutto colpo.", // NEEDS CHECK
+		shortDesc: "Probabile brutto colpo.", // NEEDS CHECK
 	},
 	afteryou: {
 		name: "Cortesia",
 		// Official flavor text: "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Durante questo turno costringe il bersaglio a muoversi subito dopo l'utilizzatore, indipendentemente dalla priorità della mossa selezionata. Fallisce se il bersaglio si sarebbe comunque mosso subito dopo o se ha già agito durante questo turno.", // NEEDS CHECK
+		shortDesc: "Costringe il bersaglio a muoversi subito.", // NEEDS CHECK
 
 		activate: "  {TARGET} approfitta della cortesia!",
 	},
 	agility: {
 		name: "Agilità",
 		// Official flavor text: "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità."
-		desc: null, // NEEDS TRANSLATION
-		shortDesc: null, // NEEDS TRANSLATION
+		desc: "Aumenta la Velocità dell'utilizzatore di 2 stadi.", // NEEDS CHECK
+		shortDesc: "Aumenta la Spd dell'utilizzatore di 2 stadi.", // NEEDS CHECK
 	},
 	aircutter: {
 		name: "Aerasoio",

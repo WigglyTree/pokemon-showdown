@@ -21,7 +21,7 @@ export const TagsText: { [id: string]: TagText } = {
 		name: null, // NEEDS TRANSLATION
 	},
 	restrictedlegendary: {
-		name: null, // NEEDS TRANSLATION
+		name: "Pokemon speciale",
 	},
 	ultrabeast: {
 		name: "Ultracreatura",
@@ -30,7 +30,7 @@ export const TagsText: { [id: string]: TagText } = {
 		name: "Paradosso",
 	},
 	pokestar: {
-		name: null, // NEEDS TRANSLATION
+		name: "Pokéwood", // NEEDS TRANSLATION
 	},
 	zmove: {
 		name: "Mossa Z",

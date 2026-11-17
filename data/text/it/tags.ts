@@ -30,7 +30,7 @@ export const TagsText: { [id: string]: TagText } = {
 		name: "Paradosso",
 	},
 	pokestar: {
-		name: "Pokéwood", // NEEDS TRANSLATION
+		name: "Pokéwood",
 	},
 	zmove: {
 		name: "Mossa Z",
@@ -39,8 +39,9 @@ export const TagsText: { [id: string]: TagText } = {
 		name: "Mossa Dynamax",
 	},
 	contact: {
-		name: null, // NEEDS TRANSLATION
-		hint: null, // NEEDS TRANSLATION
+		name: "Contatto",
+		hint: "attiva Spineferrate, Agodifesa, ecc",
+		desc: "Soggetto agli effetti di varie mosse, abilità e oggetti. Mosse influenzate dalle mosse di contatto includono: Agodifesa, Scudoreale. Abilità influenzate dalle mosse di contatto includono: Spineferrate, Cartavetro, Viscosità, Corpodifuoco, Statico, Unghiedure. Oggetti influenzati dalle mosse di contatto includono: Bitorzolelmo, Vischiopunta.",
 	},
 	sound: {
 		name: null, // NEEDS TRANSLATION
@@ -106,35 +107,37 @@ export const TagsText: { [id: string]: TagText } = {
 		hint: null, // NEEDS TRANSLATION
 	},
 	nonmirror: {
-		name: null, // NEEDS TRANSLATION
+		name: "Non Speculabile",
+		desc: "Non può essere copiata da Speculmossa.",
 	},
 	nonsnatchable: {
-		name: null, // NEEDS TRANSLATION
+		name: "Non Scippabile",
+		desc: "Non può essere copiata da Scippo.",
 	},
 	bypasssubstitute: {
-		name: null, // NEEDS TRANSLATION
-		hint: null, // NEEDS TRANSLATION
+		name: "Oltrepassa Sostituto",
+		hint: "ma non lo rompe",
 	},
 	gmaxmove: {
-		name: null, // NEEDS TRANSLATION
+		name: "Mossa Gigamax",
 	},
 	past: {
-		name: null, // NEEDS TRANSLATION
+		name: "Passato",
 	},
 	truepast: {
-		name: null, // NEEDS TRANSLATION
+		name: "Vero passato",
 	},
 	pastunobtainable: {
-		name: null, // NEEDS TRANSLATION
+		name: "Passato non ottenibile",
 	},
 	future: {
-		name: null, // NEEDS TRANSLATION
+		name: "Futuro",
 	},
 	lgpe: {
 		name: "LGPE",
 	},
 	unobtainable: {
-		name: null, // NEEDS TRANSLATION
+		name: "Non ottenibile",
 	},
 	cap: {
 		name: "CAP",
@@ -143,7 +146,7 @@ export const TagsText: { [id: string]: TagText } = {
 		name: null, // NEEDS TRANSLATION
 	},
 	nonexistent: {
-		name: null, // NEEDS TRANSLATION
+		name: "Inesistente",
 	},
 
 	introducedgen: {
@@ -156,22 +159,28 @@ export const TagsText: { [id: string]: TagText } = {
 		name: "Peso",
 	},
 	hp: {
-		name: null, // NEEDS TRANSLATION
+		name: "PS",
+		desc: "Punti Salute",
 	},
 	atk: {
-		name: null, // NEEDS TRANSLATION
+		name: "Att",
+		desc: "Attacco",
 	},
 	def: {
-		name: null, // NEEDS TRANSLATION
+		name: "Dif", 
+		desc: "Difesa",
 	},
 	spa: {
-		name: null, // NEEDS TRANSLATION
+		name: "ASp", 
+		desc: "Attacco Speciale",
 	},
 	spd: {
-		name: null, // NEEDS TRANSLATION
+		name: "DSp", 
+		desc: "Difesa Speciale",
 	},
 	spe: {
-		name: null, // NEEDS TRANSLATION
+		name: "Vel",
+		desc: "Velocità",
 	},
 	bst: {
 		name: "BST",
@@ -180,12 +189,12 @@ export const TagsText: { [id: string]: TagText } = {
 		name: "Potenza",
 	},
 	priority: {
-		name: null, // NEEDS TRANSLATION
+		name: "Priorità",
 	},
 	accuracy: {
 		name: "Precisione",
 	},
 	maxpp: {
-		name: null, // NEEDS TRANSLATION
+		name: "PP massimi",
 	},
 };
